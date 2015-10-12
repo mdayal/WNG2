@@ -1,0 +1,57 @@
+﻿@model WNG.NumericSeq.Web.Models.Numbers
+@{
+    ViewBag.Title = "Numeric Sequence Calculator";
+}
+<div class="container">
+    <div class="well">
+        <h2>Numeric Sequence Calculator</h2>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
+            <div class="alert alert-info">
+                @if (Model != null && Model.Number > 0)
+                {
+                    @Html.Partial("_GetNumbersPartial", Model)
+                }
+                else
+                {
+                    @Html.Partial("_GetNumbersPartial")
+                }
+            </div>
+        </div>
+    </div>
+    
+     @if (ViewBag != null && !String.IsNullOrEmpty(ViewBag.Message))
+    {
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
+            <div class="@(!String.IsNullOrEmpty(ViewBag.Msgtype) ? "alert alert-" + ViewBag.Msgtype : "alert alert-success")">
+                <span class="glyphicon glyphicon-hand-right"></span>
+               <strong> @Html.Raw(ViewBag.Message)</strong>
+            </div>
+        </div>
+    }
+    
+    <br />
+    <div class="well">
+        <a data-toggle="collapse" data-target="#demo">Help</a>
+        <div id="demo" class="collapse">
+            <p class="lead text-primary">The application allows a user to initiate the calculation of the numeric sequences from a number entered by the user. </p>
+            The following numeric sequences shall be displayed:
+                <ul>
+                    <li>All numbers up to and including the number entered.</li>
+                    <li>All odd numbers up to and including the number entered</li>
+                    <li>All even numbers up to and including the number entered.</li>
+                </ul>
+            All numbers up to and including the number entered, except when: 
+                <ul>
+                    <li>Disply C insted of the number when a  number is a multiple of 3 .</li>
+                    <li>Disply E insted of the number when a  number is a multiple of 5 .</li>
+                    <li>Disply Z insted of the number when a  number is a multiple of both 3 and 5. </li>
+                </ul>
+           
+            All fibonacci number up to and including the number entered.
+          
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="5058AF6C-8D61-49A5-8B2C-95CB74F52A4C/f:MockTestBase.cs" caret="0" fromTop="0" />
+    <File id="5058AF6C-8D61-49A5-8B2C-95CB74F52A4C/f:NoSeqCalculator_Tests.cs" caret="692" fromTop="21" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:App_Start/f:BundleConfig.cs" caret="0" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_Layout.cshtml" caret="582" fromTop="19" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Models/f:Numbers.cs" caret="83" fromTop="2" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:DependencyInjection/f:WindsorInstaller.cs" caret="938" fromTop="3" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Models/d:ViewModels/f:ErrorViewModel.cs" caret="13" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/f:Web.config" caret="0" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Controllers/f:ErrorController.cs" caret="42" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/f:Web.config" caret="1450" fromTop="22" />
+    <File id="B8A37622-33F0-44D1-955E-FC5FD86D1496/d:ControllerFactories/f:WindsorControllerFactory.cs" caret="920" fromTop="28" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/f:Global.asax.cs" caret="13" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="1079" fromTop="11" />
+    <File id="229397F9-7447-4D26-9E29-F8063EBE3BBB/d:Services/f:NoSeqCalculatorService.cs" caret="1814" fromTop="34" />
+    <File id="229397F9-7447-4D26-9E29-F8063EBE3BBB/d:Interfaces/f:INoSeqCalculatorService.cs" caret="134" fromTop="4" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Controllers/f:HomeController.cs" caret="1349" fromTop="21" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Help.cshtml" caret="727" fromTop="16" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="763" fromTop="14" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="1652" fromTop="24" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/f:Global.asax.cs" caret="13" fromTop="0" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="144" fromTop="2" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="668" fromTop="21" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="816" fromTop="25" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="520" fromTop="9" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="2009" fromTop="16" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="763" fromTop="28" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="763" fromTop="37" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="763" fromTop="40" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Shared/f:_GetNumbersPartial.cshtml" caret="763" fromTop="14" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Help.cshtml" caret="57" fromTop="5" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Help.cshtml" caret="727" fromTop="16" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Controllers/f:HomeController.cs" caret="902" fromTop="35" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="194" fromTop="11" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="212" fromTop="8" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="212" fromTop="8" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2317" fromTop="42" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2245" fromTop="17" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2245" fromTop="20" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2245" fromTop="28" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2231" fromTop="24" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="1496" fromTop="11" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2353" fromTop="28" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="1295" fromTop="10" />
+    <File id="2FAF568F-E12F-4BB0-928A-09FBF112D166/d:Views/d:Home/f:Index.cshtml" caret="2305" fromTop="33" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="1309" fromTop="29" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="1741" fromTop="46" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="1371" fromTop="33" />
+    <File id="229397F9-7447-4D26-9E29-F8063EBE3BBB/d:Services/f:NoSeqCalculatorService.cs" caret="1852" fromTop="34" />
+    <File id="86185917-617E-4AA6-AF5E-4DAD4F38CA0C/d:ExtensionMethods/f:IntExtensions.cs" caret="1652" fromTop="24" />
+  </RecentEdits>
+</RecentFiles>

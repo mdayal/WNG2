@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="229397F9-7447-4D26-9E29-F8063EBE3BBB" ModuleId="WNG.ApplicationService.NumericSeq" />
+  <Module PersistentId="86185917-617E-4AA6-AF5E-4DAD4F38CA0C" ModuleId="CT.Utility" />
+  <Module PersistentId="2FAF568F-E12F-4BB0-928A-09FBF112D166" ModuleId="WNG.NumericSeq.Web" />
+  <Module PersistentId="5058AF6C-8D61-49A5-8B2C-95CB74F52A4C" ModuleId="WNG.ApplicationService.NumericSeq.Tests" />
+  <Module PersistentId="B8A37622-33F0-44D1-955E-FC5FD86D1496" ModuleId="CT.DependencyInjection" />
+</Modules>

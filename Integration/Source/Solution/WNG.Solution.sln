@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.ApplicationService.NumericSeq", "..\WNG.ApplicationService.NumericSeq\WNG.ApplicationService.NumericSeq.csproj", "{229397F9-7447-4D26-9E29-F8063EBE3BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WNG.ApplicationServices", "WNG.ApplicationServices", "{7F1D70D2-BC8C-4A5C-BC96-F86B005E5FBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WNG.Applications", "WNG.Applications", "{CA298F47-BA9C-444A-90F7-8AC01B2D5DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Websites", "Websites", "{ADC609DD-8CD9-444A-AC8B-7B887FD7EE01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WNG.Common", "WNG.Common", "{527F627E-011C-48D6-A133-A0518F5E08B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WNG.Tests", "WNG.Tests", "{E4A02ADC-6869-49F9-B882-1B9C53EF56D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.NumericSeq.Web", "..\WNG.NumericSeq.Web\WNG.NumericSeq.Web.csproj", "{2FAF568F-E12F-4BB0-928A-09FBF112D166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT.DependencyInjection", "..\CT.DependencyInjection\CT.DependencyInjection.csproj", "{B8A37622-33F0-44D1-955E-FC5FD86D1496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT.Utility", "..\CT.Utility\CT.Utility.csproj", "{86185917-617E-4AA6-AF5E-4DAD4F38CA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.ApplicationService.NumericSeq.Tests", "..\..\Tests\WNG.ApplicationService.NumericSeq.Tests\WNG.ApplicationService.NumericSeq.Tests.csproj", "{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{229397F9-7447-4D26-9E29-F8063EBE3BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229397F9-7447-4D26-9E29-F8063EBE3BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229397F9-7447-4D26-9E29-F8063EBE3BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229397F9-7447-4D26-9E29-F8063EBE3BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAF568F-E12F-4BB0-928A-09FBF112D166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAF568F-E12F-4BB0-928A-09FBF112D166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAF568F-E12F-4BB0-928A-09FBF112D166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAF568F-E12F-4BB0-928A-09FBF112D166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A37622-33F0-44D1-955E-FC5FD86D1496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A37622-33F0-44D1-955E-FC5FD86D1496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A37622-33F0-44D1-955E-FC5FD86D1496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A37622-33F0-44D1-955E-FC5FD86D1496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86185917-617E-4AA6-AF5E-4DAD4F38CA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86185917-617E-4AA6-AF5E-4DAD4F38CA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86185917-617E-4AA6-AF5E-4DAD4F38CA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86185917-617E-4AA6-AF5E-4DAD4F38CA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{229397F9-7447-4D26-9E29-F8063EBE3BBB} = {7F1D70D2-BC8C-4A5C-BC96-F86B005E5FBC}
+		{ADC609DD-8CD9-444A-AC8B-7B887FD7EE01} = {CA298F47-BA9C-444A-90F7-8AC01B2D5DB9}
+		{2FAF568F-E12F-4BB0-928A-09FBF112D166} = {ADC609DD-8CD9-444A-AC8B-7B887FD7EE01}
+		{B8A37622-33F0-44D1-955E-FC5FD86D1496} = {527F627E-011C-48D6-A133-A0518F5E08B7}
+		{86185917-617E-4AA6-AF5E-4DAD4F38CA0C} = {527F627E-011C-48D6-A133-A0518F5E08B7}
+		{5058AF6C-8D61-49A5-8B2C-95CB74F52A4C} = {E4A02ADC-6869-49F9-B882-1B9C53EF56D9}
+	EndGlobalSection
+EndGlobal

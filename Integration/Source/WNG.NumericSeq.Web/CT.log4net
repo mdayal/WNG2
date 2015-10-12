@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CT.log4net>
+  <appender name="RollingLogFileAppender" type="CT.log4net.Appender.RollingFileAppender">
+    <file value="C:\Applications\Logs\WMG.Ex.Website\RollingLogFileAppender\NoSeqCalculatorWebLog.txt" />
+    <appendToFile value="true" />
+    <maxSizeRollBackups value="10" />
+    <maximumFileSize value="5MB" />
+    <rollingStyle value="Size" />
+    <staticLogFileName value="true" />
+    <layout type="CT.log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level %logger [%ndc] - %message%newline" />
+    </layout>
+  </appender>
+  <appender name="SmtpAppender" type="CT.log4net.Appender.SmtpAppender">
+    <to value="" />
+    <from value="WMG.Ex.Website@dev" />
+    <subject value="ct.log4net.dev" />
+    <smtpHost value="mdayal.globus.com.au" />
+    <bufferSize value="512" />
+    <lossy value="true" />
+    <evaluator type="CT.log4net.Core.LevelEvaluator">
+      <threshold value="ERROR"/>
+    </evaluator>
+    <layout type="CT.log4net.Layout.PatternLayout">
+      <conversionPattern value="%newline%date [%thread] %-5level %logger [%property{NDC}] - %message%newline%newline%newline" />
+    </layout>
+  </appender>
+  <root>
+    <level value="ALL" />
+    <appender-ref ref="RollingLogFileAppender" />
+    <appender-ref ref="SmtpAppender" />
+  </root>
+</CT.log4net>

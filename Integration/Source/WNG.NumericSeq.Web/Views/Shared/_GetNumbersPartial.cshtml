@@ -1,0 +1,16 @@
+﻿@model WNG.NumericSeq.Web.Models.Numbers
+
+<h4 class="text-warning"> <strong>Please enter a postive number with no decimal value.</strong></h4>
+@using (Html.BeginForm("GetNumberSeries", "Home", FormMethod.Post))
+{
+     @* @Html.ValidationSummary(true)     *@  
+    <div class="form-group">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 ">
+                @Html.LabelFor(model => model.Number)
+                @Html.TextBoxFor(model => model.Number, null, new { @class = "form-control input-sm ", placeholder = "Enter a number" })
+                @Html.ValidationMessageFor(model => model.Number)
+            </div>
+    </div>
+    <button type="submit" id="btn_submit" class="btn btn-primary btn-md active">Generate Series</button>
+
+}
